@@ -1,0 +1,11 @@
+[project]
+name = "wb-auto-search-parser"
+version = "0.1.0"
+description = "Простой парсер автомобилей на WB"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.2",
+]
